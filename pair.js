@@ -64,8 +64,8 @@ router.get('/', async (req, res) => {
 *_Made With 💜_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN CRAZY MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ *『 INCROYABLE QUE VOUS AVEZ CHOISI CRAZY MD 』*
+║ _Vous avez terminé la première étape pour déployer un bot Whatsapp._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
