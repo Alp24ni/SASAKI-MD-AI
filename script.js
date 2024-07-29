@@ -7,7 +7,7 @@
 
 
   function redirigerVersWhatsApp() {
-    window.location.href = "https://wa.me/+237620114013";
+    window.location.href = "https://wa.me/+24105114159";
   }
 
 
