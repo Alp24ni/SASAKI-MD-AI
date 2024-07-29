@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 10000;
 
 // Import des modules crazyqr et pair
-const server = require('./crazyqr.js');
+const server = require('./qr.js');
 const code = require('./pair.js');
 
 // Middleware for security headers
@@ -21,11 +21,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the crazy-md.html file for the root route
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'crazy-md.html'));
+  res.sendFile(path.join(__dirname, 'public', 'SASAKI-MD.html'));
 });
 
 // Utilisation des middlewares pour les routes spécifiques
-app.use('/crazyqr', server);
+app.use('/qr', server);
 app.use('/code', code);
 
 // Middleware pour servir pair.html lorsque la route /pair est accédée
