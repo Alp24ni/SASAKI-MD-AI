@@ -1,11 +1,11 @@
 # Exported from Render on 2024-07-03T11:30:53Z
 services:
 - type: web
-  name: Web-Delpoy-Open-Source
+  name: SASAKI-MD-AI
   runtime: node
-  repo: https://github.com/CrazyPrince/PAIR-QR-CRAZY-MD
+  repo: https://github.com/Alp24ni/SASAKI-MD-AI
   plan: free
   region: frankfurt
   buildCommand: npm i
-  startCommand: node crazy_prince.js
+  startCommand: node SASAKI-MD.js
 version: "1"
