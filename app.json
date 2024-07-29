@@ -1,9 +1,9 @@
 {
-    "name": "Wasi Session Generator",
-    "description": "I'm Web Session Generator by Itxx Me Wasi",
+    "name": "SASAKI-MD-AI",
+    "description": "I'm Web Session Generator by toge012345",
     "logo": "",
-    "repository": "https://github.com/Giftedmaurice/giftedmdV2-session-generator",
-    "keywords": ["@Xcelsama"],
+    "repository": "https://github.com/Alp24ni/SASAKI-MD-AI",
+    "keywords": ["@toge012345"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
