@@ -59,13 +59,13 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64dat });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By CRAZY MD_*
-*_Made With 🤍_*
+*_Session Connected By SASAKI-MD_*
+*_Made With TOGE SASAKI 🤍_*
 
 ______________________________________
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN CRAZY MD』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ *『INCROYABLE QUE VOUS AVEZ CHOISI SASAKI-MD』*
+║ __Vous avez terminé la première étape pour déployer un bot Whatsapp._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
@@ -79,12 +79,12 @@ ______________________________________
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
+	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_toge012345.user.id,{text:SASAKI_MD_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code_By_Wasi_Tech.ws.close();
+					await Qr_Code_By_toge012345.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
@@ -101,6 +101,6 @@ _Don't Forget To Give Star To My Repo_`
 			await removeFile("temp/" + id);
 		}
 	}
-	return await WASI_MD_QR_CODE()
+	return await SASAKI_MD_QR_CODE()
 });
 module.exports = router
