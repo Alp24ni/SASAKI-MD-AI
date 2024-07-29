@@ -1,6 +1,0 @@
-build:
-  config:
-    nodejs_version: 20
-
-run:
-  web: npm start
