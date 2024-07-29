@@ -1,15 +1,15 @@
 {
-    "description": "crazysession",
-    "main": "./crazy_prince.js",
+    "description": "SASAKI-SESSION",
+    "main": "./SASAKI-MD.js",
   "engines" : { 
     "npm" : ">=9.7.2",
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "pm2 start crazy_prince.js",
+    "start": "pm2 start SASAKI-MD.js",
     "stop": "pm2 stop web",
     "restart": "pm2 restart web",
-    "dev": "nodemon api/crazy_prince.js"
+    "dev": "nodemon api/SASAKI-MD.js"
 
   },
 
