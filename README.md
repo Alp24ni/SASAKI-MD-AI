@@ -13,7 +13,7 @@
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Alp24ni"><img title="Author" src="https://img.shields.io/badge/SASAKI_MD-V2-MULTI_DEVICE-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Alp24ni"><img title="SASAKI" src="https://img.shields.io/badge/SASAKI_MD-V2-MULTI_DEVICE-black?style=for-the-badge&logo=github"></a>
 <p/>
 
 
